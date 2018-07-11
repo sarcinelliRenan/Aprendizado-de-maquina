@@ -1,3 +1,6 @@
+import numpy as np
+import math
+
 def accuracy (x, rotules):
   return np.count_nonzero(x==rotules)/rotules.shape[0]
   
