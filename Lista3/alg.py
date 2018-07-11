@@ -1,3 +1,7 @@
+import numpy as np
+import time
+import math
+
 def euclidian (a,b):
   return np.linalg.norm(a-b)
 
